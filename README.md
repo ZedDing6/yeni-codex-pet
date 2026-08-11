@@ -21,17 +21,3 @@ Windows 最简单的安装方式：解压 ZIP 后双击 `install.cmd`。
 
 完全退出并重新启动 Codex，然后选择「夜霓」。
 
-## 上传 GitHub
-
-在解压目录中执行：
-
-```bash
-git init
-git add .
-git commit -m "Release Yeni Codex pet v1"
-git branch -M main
-git remote add origin https://github.com/YOUR_NAME/yeni-codex-pet.git
-git push -u origin main
-```
-
-公开发布前请添加你选择的许可证，并确认你拥有最终素材的公开发布权。
